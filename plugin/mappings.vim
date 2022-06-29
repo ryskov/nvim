@@ -33,7 +33,6 @@ nnoremap <Leader>' <cmd>lua require'telescope.builtin'.marks{}<CR>
 nnoremap <Leader>f <cmd>lua require'telescope.builtin'.git_files{}<CR>
 
 " ripgrep like grep through dir
-
 nnoremap <Leader>rg <cmd>lua require'telescope.builtin'.live_grep{}<CR>
 
 " pick color scheme

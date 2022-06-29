@@ -28,6 +28,7 @@ call plug#begin(stdpath('data') . 'vimplug')
     Plug 'romgrk/barbar.nvim'
     Plug 'dstein64/vim-startuptime'
     Plug 'lewis6991/impatient.nvim'
+    Plug 'sindrets/diffview.nvim'
 call plug#end()
 
 lua require('impatient')
