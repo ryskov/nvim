@@ -1,5 +1,5 @@
-require("lsp")
-require("treesitter")
+require("user.lsp")
+require("user.treesitter")
 require("lspconfig").sumneko_lua.setup({ settings = { Lua = { diagnostics = { globals = { 'vim' } } } } })
 require("nvim-tree").setup({ view = { adaptive_size = false, width = 60 }, respect_buf_cwd = true, update_cwd = true,
     update_focused_file = { enable = true, update_cwd = true }, diagnostics = { enable = true } })
@@ -8,7 +8,7 @@ require("project_nvim").setup()
 require("telescope").setup({ extensions = { ["ui-select"] = { require("telescope.themes").get_dropdown() } } })
 require("telescope").load_extension("ui-select")
 require("telescope").load_extension("projects")
-require("completion")
+require("user.completion")
 require("lualine").setup({
     options = { theme = "vscode" }
 })
