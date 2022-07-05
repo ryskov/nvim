@@ -13,7 +13,7 @@ vim.opt.incsearch      = true
 -- do incremental searching
 vim.opt.visualbell     = true
 vim.opt.expandtab      = true
-vim.opt.tabstop        = 4
+vim.opt.tabstop        = 2
 vim.opt.ruler          = true
 vim.opt.smartindent    = true
 vim.opt.shiftwidth     = 4
